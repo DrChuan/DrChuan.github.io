@@ -148,6 +148,167 @@
           <div id="js-content" class="content-ll">
             
   
+    <article id="post-MIT6-828-Lab1" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2021/06/21/MIT6-828-Lab1/">MIT6.828-Lab1</a>
+    </h1>
+  
+
+        
+        <a href="/2021/06/21/MIT6-828-Lab1/" class="archive-article-date">
+  	<time datetime="2021-06-21T13:50:06.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2021-06-21</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>今天决定开始刷MIT6.828的实验。算是弥补一下鄙校操作系统课程实验非常落后而愚蠢的缺憾吧。这篇笔记的内容呢，主要是我在实验过程中的一些主要思路和关键点的记录，所以可能并不能作为一篇详尽的实验指导性质的文字，因为很多操作上的、工具使用上的小细节我是没有一一列出的。假如你是自己独立地在钻研这个实验，对工具有一定的熟悉程度，经过重复的研究和思考之后，卡在某些地方，在本文中找到一些小的启发倒是有可能的。当然，很多内容也是我结合曾经课上课下所学的各种知识所做的一些个人分析，错误也是肯定会有的。好了，话不多说，直接开始。</p>
+        
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">操作系统</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2021/06/21/MIT6-828-Lab1/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
+    <article id="post-一个简单编译器的实现" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2021/06/21/%E4%B8%80%E4%B8%AA%E7%AE%80%E5%8D%95%E7%BC%96%E8%AF%91%E5%99%A8%E7%9A%84%E5%AE%9E%E7%8E%B0/">一个简单编译器的实现</a>
+    </h1>
+  
+
+        
+        <a href="/2021/06/21/%E4%B8%80%E4%B8%AA%E7%AE%80%E5%8D%95%E7%BC%96%E8%AF%91%E5%99%A8%E7%9A%84%E5%AE%9E%E7%8E%B0/" class="archive-article-date">
+  	<time datetime="2021-06-21T08:53:33.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2021-06-21</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <!-- toc -->
+<ul>
+<li><a href="#----------">一个简单编译器的实现</a><ul>
+<li><a href="#tranlang--">TranLang介绍</a></li>
+<li><a href="#-----">词法分析器</a></li>
+<li><a href="#-----">语法分析器</a></li>
+<li><a href="#-------">语法树和符号表</a></li>
+<li><a href="#------">中间代码生成</a></li>
+<li><a href="#------">汇编代码生成</a></li>
+</ul>
+</li>
+</ul>
+<!-- tocstop -->
+<p>上个月编写了一个简单的的编译器，语言是自己定义的一门类C的语言，名曰TranLang。在这里，简单介绍一下TranLang的基本情况以及开发过程中的一些体会和心得。</p>
+        
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">编译原理</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2021/06/21/%E4%B8%80%E4%B8%AA%E7%AE%80%E5%8D%95%E7%BC%96%E8%AF%91%E5%99%A8%E7%9A%84%E5%AE%9E%E7%8E%B0/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
     <article id="post-Test" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
@@ -410,6 +571,14 @@ MathJax.Hub.Queue(function() {
             <input type="checkbox" q-on="click:toggleTag(e)" q-attr="checked:showTags">
           </label>
           <ul class="article-tag-list" q-show="showTags">
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color5">操作系统</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color5">编译原理</a>
+              </li>
             
             <div class="clearfix"></div>
           </ul>
