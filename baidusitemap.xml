@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://example.com/2021/07/04/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E7%9F%A5%E8%AF%86%E6%80%BB%E7%BB%93/</loc>
+    <lastmod>2021-07-07</lastmod>
+  </url>
+  <url>
+    <loc>http://example.com/2021/07/03/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86%E7%9F%A5%E8%AF%86%E6%80%BB%E7%BB%93/</loc>
+    <lastmod>2021-07-04</lastmod>
+  </url>
+  <url>
     <loc>http://example.com/2021/06/29/Pytorch%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/</loc>
     <lastmod>2021-07-02</lastmod>
   </url>
